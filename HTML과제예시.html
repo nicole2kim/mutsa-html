@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='ko'>
+<head>
+    <meta charset="utf-8">
+    <title>my playlist</title>
+</head>
+
+<body>
+
+    <h1>♥나만의 PLAYLIST♥</h1><br>
+
+    <p>요즘 제가 빠진 <strong>여자 아이돌</strong> 플레이리스트 입니다ㅎㅎ!</p><br>
+    <img src="푸린이미지.png" alt="와 신난다!" height="320px">
+    <h3>⋰˚☆나만의 BEST5 노래들⋰˚☆</h3>
+    <ol>
+        <li><a href="https://youtu.be/AbZH7XWDW_k">태연-INVU</a></li>
+        <li><a href="https://youtu.be/grG41kS4MUA">스테이씨-RUN2U</a></li>
+        <li><a href="https://youtu.be/y9kkXTucnLU">예나-SMILEY(feat.비비)</a></li>
+        <li><a href="https://youtu.be/4gXmClk8rKI">프로미스나인-DM</a></li>
+        <li><a href="https://youtu.be/H69tJmsgd9I">에스파-Dreams Come True</a></li>
+    </ol><br>
+
+
+    <h2>ෆ곡 추가ෆ</h2>
+    <form action="my-app" method="get">
+        <div>
+            <label for="singer">가수: </label>
+            <input type="text" id="singer" name="singer" placeholder="가수를 입력하세요.">
+        </div>
+        
+        <div>
+            <label for="songname">곡 이름: </label>
+            <input type="text" id="songname" name="songname" placeholder="곡 이름을 입력하세요.">
+        </div>
+        <div>
+            <label for="gender">가수의 성별: </label>
+            <select name="gender" id="gender">
+                <option value="male">남성</option>
+                <option value="female">여성</option>
+            </select>
+        </div>
+        <div>
+            <label for="addmusic">추가하고 싶은 이유: </label>
+            <textarea name="addmusic" id="addmusic" cols="30" rows="10" placeholder="해당 곡을 추가하고 싶은 이유를 입력하세요."></textarea>
+        </div>
+        <button type="submit">제출</button>
+        <button type="reset">리셋</button>
+    </form>
+    
+    
+
+</body>
